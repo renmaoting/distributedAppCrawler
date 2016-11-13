@@ -6,9 +6,9 @@ This is a distributed App crawler, it will grabs all the App informations from G
   * type 
   * author 
   * update time 
-  * ating 
-  * wnload number
-  * rice 
+  * rating 
+  * download number
+  * price 
   * view number
   * version 
   * URL
