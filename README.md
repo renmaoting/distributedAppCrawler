@@ -2,17 +2,13 @@
 
 This is a distributed App crawler, it will grabs all the App informations from Google Play, including: 
   
-  1. App name
-  2. author 
-  3. rating 
-  4. price 
-  5. version 
-  6. type 
-  7. update time 
-  8. download number
-  9. review number
+  1. App name           6. type 
+  2. author             7. update time 
+  3. rating             8. download number
+  4. price              9. review number
+  5. version            10. URL
 
-THen it will store datas into mongodb
+then store datas into mongodb
 
 Use scrapy-redis + mongodb.
 
