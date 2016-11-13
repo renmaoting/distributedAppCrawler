@@ -17,7 +17,7 @@ then store datas into mongodb
 
 Use scrapy-redis + mongodb.
 
-usage: scrapy crawl App -o items.json -t json
+usage: scrapy crawl App
 
 necessary package installation:
 
