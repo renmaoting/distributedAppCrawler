@@ -1,15 +1,16 @@
 # distributedAppCrawler
 
 This is a distributed App crawler, it will grabs all the App informations from Google Play, including: 
-1. App name
-2. author 
-3. rating 
-4. price 
-5. version 
-6. type 
-7. update time 
-7. download number
-8. review number
+  
+  1. App name
+  2. author 
+  3. rating 
+  4. price 
+  5. version 
+  6. type 
+  7. update time 
+  8. download number
+  9. review number
 
 THen it will store datas into mongodb
 
