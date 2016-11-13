@@ -21,12 +21,14 @@ usage: scrapy crawl App -o items.json -t json
 
 necessary package installation:
 
-install Python-pip: sudo apt-get install python-pip
-install scrapy: sudo pip install scrapy
-install mongodb: sudo apt-get install mongodb
-install pymongo: sudo pip install pymongo
-linux install mongochef which is a GUI tool:
+1. install Python-pip: sudo apt-get install python-pip
+2. install scrapy: sudo pip install scrapy
+3. install mongodb: sudo apt-get install mongodb
+4. install pymongo: sudo pip install pymongo
+5. linux install mongochef which is a GUI tool:
 
-download http://3t.io/mongochef/download/core/platform/#tab-id-3
-tar -xvzf mongochef-linux-x64-dist.tar.gz
-./mongochef-4.4.2-linux-x64-dist/bin/mongochef.sh
+install mongochef which is a GUI tool:
+
+1. download http://3t.io/mongochef/download/core/platform/#tab-id-3
+2. tar -xvzf mongochef-linux-x64-dist.tar.gz
+3. ./mongochef-4.4.2-linux-x64-dist/bin/mongochef.sh
