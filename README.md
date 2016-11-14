@@ -35,10 +35,10 @@ install mongochef which is a GUI tool:
 
 1.2 Requirements
 
-  • Python 2.7, 3.4 or 3.5
+    • Python 2.7, 3.4 or 3.5
 
-  • Redis >= 2.8
+    • Redis >= 2.8
 
-  • Scrapy >= 1.0
+    • Scrapy >= 1.0
   
-  • redis-py >= 2.10
+    • redis-py >= 2.10
