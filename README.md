@@ -34,7 +34,11 @@ install mongochef which is a GUI tool:
 3. ./mongochef-4.4.2-linux-x64-dist/bin/mongochef.sh
 
 1.2 Requirements
-• Python 2.7, 3.4 or 3.5
-• Redis >= 2.8
-• Scrapy >= 1.0
-• redis-py >= 2.10
+
+  • Python 2.7, 3.4 or 3.5
+
+  • Redis >= 2.8
+
+  • Scrapy >= 1.0
+  
+  • redis-py >= 2.10
