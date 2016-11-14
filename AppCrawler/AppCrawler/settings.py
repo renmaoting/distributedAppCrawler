@@ -14,6 +14,20 @@ BOT_NAME = 'AppCrawler'
 SPIDER_MODULES = ['AppCrawler.spiders']
 NEWSPIDER_MODULE = 'AppCrawler.spiders'
 
+ITEM_PIPELINES = {
+    'AppCrawler.pipelines.AppcrawlerPipeline': 300,
+    'scrapy_redis.pipelines.RedisPipeline': 400,
+}
+
+USER_AGENT = 'scrapy-redis (+https://github.com/rolando/scrapy-redis)'
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+SCHEDULER_PERSIST = True
+
+#REDIS_URL = None
+REDIS_HOST = '127.0.0.1'
+REDIS_PORT = 6379
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'AppCrawler (+http://www.yourdomain.com)'
 
@@ -26,7 +40,7 @@ MONGODB_DBNAME= 'Jonah'
 MONGODB_DOCNAME= 'Apps'
 
 
-LOG_STDOUT = True 
+#LOG_STDOUT = True 
 LOG_LEVEL = 'ERROR'
 LOG_FILE = 'Apps.log'
 
@@ -73,9 +87,6 @@ LOG_FILE = 'Apps.log'
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-    'AppCrawler.pipelines.AppcrawlerPipeline': 300,
-}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
